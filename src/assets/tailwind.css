@@ -1,0 +1,20 @@
+@tailwind base;
+
+@tailwind components;
+
+@tailwind utilities;
+
+@font-face {
+    font-family: "neue-regular";
+    src: url("./fonts/NeueMontreal-Regular.otf");
+}
+
+@font-face {
+    font-family: "neue-medium";
+    src: url("./fonts/NeueMontreal-Medium.otf");
+}
+
+@font-face {
+    font-family: "neue-bold";
+    src: url("./fonts/NeueMontreal-Bold.otf");
+}
