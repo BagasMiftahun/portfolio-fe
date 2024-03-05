@@ -3,7 +3,7 @@ import HomeView from '../views/HomeView.vue'
 import AboutView from '../views/AboutView.vue'
 import ProjectView from '../views/ProjectView.vue'
 import ContactView from '../views/ContactView.vue'
-import ProjectDetailView from '../views/ProjectDetailView.vue'
+// import ProjectDetailView from '../views/ProjectDetailView.vue'
 import NotFoundView from '../views/NotFoundView.vue'
 
 const routes = [
@@ -35,14 +35,14 @@ const routes = [
       title: 'Project | Bagzmn Portfolio'
     }
   },
-  {
-    path: '/project/:projectId', // Gunakan parameter dinamis untuk id proyek
-    name: 'projectdetail',
-    component: ProjectDetailView,
-    meta: {
-      title: 'Project Detail | Bagzmn Portfolio'
-    }
-  },
+  // {
+  //   path: '/project/:projectId', // Gunakan parameter dinamis untuk id proyek
+  //   name: 'projectdetail',
+  //   component: ProjectDetailView,
+  //   meta: {
+  //     title: 'Project Detail | Bagzmn Portfolio'
+  //   }
+  // },
   {
     path: '/contact',
     name: 'contact',
