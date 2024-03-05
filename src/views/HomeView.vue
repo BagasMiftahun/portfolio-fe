@@ -35,7 +35,7 @@
             fantasies.
           </p>
         </div>
-        <h5 class="text-lg mt-4 md:mt-0 md:ml-4">More -></h5>
+        <h5 class="text-lg mt-4 md:mt-0 md:ml-4">More →</h5>
       </div>
       <div class="grid grid-cols-1 gap-x-8 gap-y-12 mt-5 md:grid-cols-2">
         <div class="flex flex-col gap-y-6">
@@ -51,7 +51,7 @@
         </div>
         <div class="flex flex-col gap-y-6">
           <img
-            src="../assets/images/project-1.png"
+            src="../assets/images/project-2.png"
             alt=""
             class="rounded-3xl max-w-none"
           />
@@ -62,7 +62,7 @@
         </div>
         <div class="flex flex-col gap-y-6">
           <img
-            src="../assets/images/project-1.png"
+            src="../assets/images/project-3.png"
             alt=""
             class="rounded-3xl max-w-none"
           />
@@ -73,7 +73,7 @@
         </div>
         <div class="flex flex-col gap-y-6">
           <img
-            src="../assets/images/project-1.png"
+            src="../assets/images/project-4.png"
             alt=""
             class="rounded-3xl max-w-none"
           />
@@ -85,6 +85,68 @@
         <!-- Add more similar div elements as needed -->
       </div>
     </section>
+    <section class="expertise max-w-6xl mx-auto py-12">
+      <div class="flex flex-col items-center md:items-start">
+          <h2
+            class="text-2xl font-medium text-black-500 leading-8 -tracking-1 mb-2"
+          >
+          Expertise
+          </h2>
+      </div>
+      <div class="grid grid-cols-1 gap-x-20 gap-y-24 mt-5 md:grid-cols-2">
+        <div class="flex flex-col gap-y-6">
+          <h3 class="font-medium text-xl text-black-500">Branding</h3>
+          <p class="font-regular text-lg mr-12">
+            Collaborating closely, we'll develop an impactful brand identity for your emerging enterprise. The full spectrum of brand analysis and design is addressed, culminating in a visually stunning, evergreen logo concept.
+          </p>
+        </div>
+        <div class="flex flex-col gap-y-6">
+          <h3 class="font-medium text-xl text-black-500">Branding</h3>
+          <p class="font-regular text-lg mr-12">
+            Collaborating closely, we'll develop an impactful brand identity for your emerging enterprise. The full spectrum of brand analysis and design is addressed, culminating in a visually stunning, evergreen logo concept.
+          </p>
+        </div>
+        <div class="flex flex-col gap-y-6">
+          <h3 class="font-medium text-xl text-black-500">Branding</h3>
+          <p class="font-regular text-lg mr-12">
+            Collaborating closely, we'll develop an impactful brand identity for your emerging enterprise. The full spectrum of brand analysis and design is addressed, culminating in a visually stunning, evergreen logo concept.
+          </p>
+        </div>
+        <div class="flex flex-col gap-y-6">
+          <h3 class="font-medium text-xl text-black-500">Branding</h3>
+          <p class="font-regular text-lg mr-12">
+            Collaborating closely, we'll develop an impactful brand identity for your emerging enterprise. The full spectrum of brand analysis and design is addressed, culminating in a visually stunning, evergreen logo concept.
+          </p>
+        </div>
+        <!-- Add more similar div elements as needed -->
+      </div>
+    </section>
+    <section class="py-12">
+      <div class="bg-black-500 py-4">
+        <p class="font-medium text-5xl text-white-500 animate-marquee">Visual design for digital experiences</p>
+      </div>
+    </section>
+    <section class="testimonial max-w-6xl mx-auto py-12">
+      <div
+        class="flex flex-col md:flex-row justify-between gap-x-2"
+      >
+        <div class="flex flex-col gap-y-7 basis-4/5">
+          <h2
+            class="text-3xl font-medium text-black-500 leading-8 -tracking-1 mb-2"
+          >
+            Testimonial
+          </h2>
+          <p class="text-2xl font-regular">
+            “Joey is a remarkable artist. He grasps abstract ideas and transforms them into exceptional visuals. Throughout the years, I've witnessed him produce everything from small symbols to comprehensive adaptive web pages. He has crafted clothing items like tees and caps, promotional products, and professional literature.”
+          </p>
+        </div>
+        <div class="basis-1/5 flex flex-col gap-y-2 justify-end text-right">
+          <h5 class="text-lg">Chris Ellington</h5>
+          <p class="font-regular">Product Lead,Gatha.</p>
+        </div>
+      </div>
+    </section>
+    
   </div>
 
   <!-- <HelloWorld msg="Welcome to Your Vue.js App" /> -->

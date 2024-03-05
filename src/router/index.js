@@ -3,6 +3,7 @@ import HomeView from '../views/HomeView.vue'
 import AboutView from '../views/AboutView.vue'
 import ProjectView from '../views/ProjectView.vue'
 import ContactView from '../views/ContactView.vue'
+import ProjectDetailView from '../views/ProjectDetailView.Vue'
 
 const routes = [
   {
@@ -23,6 +24,11 @@ const routes = [
     path: '/project',
     name: 'project',
     component: ProjectView
+  },
+  {
+    path: '/project/:projectId', // Gunakan parameter dinamis untuk id proyek
+    name: 'projectdetail',
+    component: ProjectDetailView
   },
   {
     path: '/contact',
