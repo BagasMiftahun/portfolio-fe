@@ -1,9 +1,10 @@
-import { createRouter, createWebHashHistory } from 'vue-router'
+import { createRouter, createWebHistory } from 'vue-router'
 import HomeView from '../views/HomeView.vue'
 import AboutView from '../views/AboutView.vue'
 import ProjectView from '../views/ProjectView.vue'
 import ContactView from '../views/ContactView.vue'
 import ProjectDetailView from '../views/ProjectDetailView.Vue'
+import NotFoundView from '../views/NotFoundView.vue'
 
 const routes = [
   {
@@ -34,11 +35,21 @@ const routes = [
     path: '/contact',
     name: 'contact',
     component: ContactView
+  },
+  {
+    path: '/404',
+    name: 'notfound',
+    component: NotFoundView
+  },
+  {
+    path: '/:catchAll(.*)', // Place the wildcard route at the end
+    redirect: '/404'
   }
+
 ]
 
 const router = createRouter({
-  history: createWebHashHistory(),
+  history: createWebHistory(),
   routes
 })
 

@@ -24,9 +24,9 @@
         <p>2023 © — Made by Djectstudio</p>
         <nav>
           <ul class="flex justify-between gap-x-10">
-            <li><a href="#" class="text-blue-500 hover:text-blue-700">LinkedIn</a></li>
-            <li><a href="#" class="text-purple-500 hover:text-purple-700">Instagram</a></li>
-            <li><a href="#" class="text-gray-500 hover:text-gray-700">GitHub</a></li>
+            <li><a href="" class="text-blue-500 hover:text-blue-700">LinkedIn</a></li>
+            <li><a href="" class="text-purple-500 hover:text-purple-700">Instagram</a></li>
+            <li><a href="" class="text-gray-500 hover:text-gray-700">GitHub</a></li>
           </ul>
         </nav>
       </div>
