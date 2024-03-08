@@ -1,5 +1,5 @@
 <template>
-  <nav class="flex flex-col pb-2 justify-center items-center gap-y-8 max-w-6xl mx-auto">
+  <nav class="flex flex-col pb-2 justify-center items-center gap-y-8 max-w-6xl sm:mx-5 lg:mx-auto">
     <img src="./assets/logo-1.png" alt="logo">
     <div class="flex flex-row justify-center items-center rounded-3xl gap-x-1 bg-black-500 text-grey-500 p-1 group">
       <router-link to="/" class="px-4 py-2 transition-colors duration-300 ease-in-out hover:text-black-500 hover:bg-grey-500 rounded-3xl" :class="{ 'text-black-500 bg-white-500': !$route.path || $route.path === '/' }">Home</router-link>
@@ -12,7 +12,7 @@
     </div>
   </nav>
   <router-view/>
-  <footer class="py-12 max-w-6xl mx-auto">
+  <footer class="py-12 max-w-6xl lg:mx-auto sm:mx-5">
     <div class="flex flex-col gap-y-24">
       <div class="flex flex-col gap-y-12 items-center">
         <p class="font-medium text-5xl text-black-500">Let’s talk!</p>
